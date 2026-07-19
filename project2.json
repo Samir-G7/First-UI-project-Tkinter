@@ -1,18 +1,26 @@
 [
     {
-        "Name": "samir",
-        "Age": "3",
+        "Name": "ram",
+        "Age": "18",
         "Gender": "male",
-        "Address": "kathmandu",
-        "Phone": "970",
-        "Class": "BC"
+        "Address": "Nepal",
+        "Phone": "1241",
+        "Class": "saasaa"
     },
     {
-        "Name": "samira ",
-        "Age": "19",
-        "Gender": "female",
-        "Address": "Kathmandu Nepal",
-        "Phone": "970",
-        "Class": "BSc nursing"
+        "Name": "samir koho",
+        "Age": "12",
+        "Gender": "asd",
+        "Address": "adsfasd",
+        "Phone": "1211",
+        "Class": "asdf"
+    },
+    {
+        "Name": "",
+        "Age": "",
+        "Gender": "",
+        "Address": "",
+        "Phone": "",
+        "Class": ""
     }
 ]
