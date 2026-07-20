@@ -5,12 +5,9 @@ Adding Students,
 Search for the Students,
 Add Teachers Details ,
 Search for Teacher BY Name.
----------------------------------------
-Will be adding more features.
 --------------------------------
 Build With :
 OOP,
 Tkinter,
 Pyautogui,
-JSON,
-Basic python.
+JSON.
