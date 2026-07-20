@@ -1,7 +1,16 @@
-This is my First project using tkinter python gui module will be updating this project with my skill.
+UI based project using Tkinter
 --------------------------------------
-this project contains of :
-Adding students in UI and saving them in json file .
-will be adding more features .
+This project is based on School management System : 
+Adding Students,
+Search for the Students,
+Add Teachers Details ,
+Search for Teacher BY Name.
+---------------------------------------
+Will be adding more features.
 --------------------------------
-OOP,tkinter,pyautogui,JSON,and basic python is used here .
+Build With :
+OOP,
+Tkinter,
+Pyautogui,
+JSON,
+Basic python.
