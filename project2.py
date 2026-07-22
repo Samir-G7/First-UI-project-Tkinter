@@ -295,6 +295,53 @@ title.pack()
 left_frame = tk.Frame(win, bg='#248f40', height=900, width=950)
 left_frame.pack(side='left', pady=10, padx=10)
 left_frame.pack_propagate(False)
+canvas =tk.Canvas(left_frame,height =900,width = 600,bg='pink' )
+canvas.pack(padx=200,pady=20)
+rectangle =canvas.create_rectangle(
+    50,
+    50,
+    100,
+    100,
+    fill='blue',
+    outline = 'red',
+    width = 3
+    )
+dx = 0
+dy = 5
+canvas.create_text(250,50,
+                   text='Fun Game',
+                   font=('italic',30,'bold italic'))
+canvas.create_text(
+    320,
+    300,
+    font=('italic',10,'bold italic'),
+    text='Press "UP" key to speed UP \n\n Press "Down key" to Low speed')
+def left (event):
+    global dx
+    dx-=1
+def right(event):
+    global dx
+    dx+=1
+def up(event):
+    global dy
+    dy+=1
+def down(event):
+    global dy 
+    dy-=1
+def animation():
+    global dx,dy
+    x1,y1,x2,y2 = canvas.coords(rectangle)
+    if y2 >=800 :
+        dy=-dy
+    if y1 <= 0  :
+        dy=-dy
+    canvas.move(rectangle,dx,dy)
+    win.after(100,animation) 
+animation()
+win.bind('<Up>',up)
+win.bind('<Down>',down)
+# win.bind('<Left>',left)
+# win.right('<right>',right)
 
 button_student = tk.Button(
     left_frame,
