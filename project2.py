@@ -3,7 +3,6 @@ import pyautogui as pyui
 import json as myson
 import os
 
-
 class school:
     def __init__(self, name, age, gender, address, phone):
         self.name = name
@@ -422,7 +421,7 @@ passwordbut = tk.Entry(
     show ='*',
     font =('arial',20))
 passwordbut.place(x = 210,y=150)
-#-----------------------
+
 log = tk.Button(right_frame,text="Log in ",bg = 'green')
 register = tk.Label(
     right_frame,
